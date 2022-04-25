@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: rgb(109, 98, 98);
+    color: white;
+    width: 500px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: 3.5rem;
+    width: 6rem;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(75, 70, 70);
+}
+
+#search {
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: 1.5rem;
+    width: 15rem;
+}
+
+.list-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+
+}
+
+.list-group {
+    list-style: none;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.list-item {
+    width: 100%;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: rgb(199, 194, 187);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete {
+    background-color: rgb(109, 98, 98);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: white;
+    color: rgb(75, 70, 70);
+}
